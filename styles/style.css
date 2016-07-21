@@ -64,6 +64,8 @@ body {
   width: 100%;
 }
 
+
+
 .HeaderClassContainer {
   width: 800px;
   position: relative;
@@ -73,7 +75,11 @@ body {
 }
 
 #TopLogoLeft {
-  display: inline-block;
+  float: left;
+  display: inline;
+  margin-bottom: -5px;
+  font-size: 30px;
+  font-weight: 900;
 }
 
 #SignUpLogin {
