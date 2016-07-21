@@ -64,20 +64,15 @@ body {
   width: 100%;
 }
 
-
-
 .HeaderClassContainer {
   width: 800px;
   position: relative;
   padding-top: 100px ;
   margin: auto;
-  bottom: 0;
 }
 
 #TopLogoLeft {
   float: left;
-  display: inline;
-  margin-bottom: -5px;
   font-size: 30px;
   font-weight: 900;
 }
@@ -85,15 +80,13 @@ body {
 #SignUpLogin {
   text-decoration: none;
   font-color: #333333;
-  font-family: Helvetica;
   float: right;
-  display: inline-block;
+  margin-top: 10px;
 }
 
 #SignUp, #Login {
   text-decoration: none;
   color: #333333;
-
 }
 
 #SignUp {
@@ -169,17 +162,7 @@ label, input {
   font-size: 14px;
 
 }
-#EmailConfirmation {
 
-}
-
-#Password {
-
-}
-
-#PasswordConfirmation {
-
-}
 #RememberMeInput {
  display: inline-block;
  height: 12px;
@@ -214,6 +197,7 @@ label, input {
   font-size: 12px;
 
 }
+
 /*ASIDE*/
 
 .Why {
@@ -227,7 +211,6 @@ label, input {
   background-clip: border-box;
   overflow: visible;
   font-weight: 500;
-
 }
 
 #AsideTitle {
@@ -263,8 +246,7 @@ label, input {
   height: 240px;
   width: 100%;
   overflow: visible;
-/*  border: 2px solid black;
-*/}
+}
 
 #SecondaryLinks {
   position: relative;
